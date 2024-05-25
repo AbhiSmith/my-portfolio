@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import AboutDilog from "./AboutDilog";
 
 // import "./Hero.css";
 
@@ -34,7 +35,8 @@ export const Hero = () => {
         </p> */}
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">About me</Button>
+          {/* <Button className="w-full md:w-1/3">About me</Button> */}
+          <AboutDilog />
 
           <a
             rel="noreferrer noopener"
