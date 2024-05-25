@@ -3,16 +3,18 @@ import { Education } from "@/components/Education";
 import { Features } from "@/components/Features";
 import { Hero } from "@/components/Hero";
 import { Skills } from "@/components/Skills";
-import Image from "next/image";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 export default function Home() {
   return (
-    <>
-      <Hero />
-      <Features />
-      <Skills />
-      <Education />
-      <Connect />
-    </>
+    <main className="">
+      <MaxWidthWrapper>
+        <Hero />
+        <Features />
+        <Skills />
+        <Education />
+        <Connect />
+      </MaxWidthWrapper>
+    </main>
   );
 }

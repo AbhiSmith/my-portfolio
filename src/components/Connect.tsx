@@ -1,11 +1,14 @@
+"use client";
 import { Button } from "./ui/button";
-// import { Input } from "./ui/input";
+import { Copy, Github, Globe, Linkedin, Twitter } from "lucide-react";
+
+import { Input } from "./ui/input";
 
 export const Connect = () => {
-  // const handleSubmit = (e: any) => {
-  //   e.preventDefault();
-  //   console.log("Subscribed!");
-  // };
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    console.log("Subscribed!");
+  };
 
   return (
     <section id="connect">
@@ -18,21 +21,50 @@ export const Connect = () => {
             connect
           </span>
         </h3>
-        <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
-          Lorem ipsum dolor sit amet consectetur.
-        </p>
-
         <form
-          className="flex flex-col w-full md:flex-row md:w-6/12 lg:w-4/12 mx-auto gap-4 md:gap-2"
-          // onSubmit={handleSubmit}
+          onSubmit={handleSubmit}
+          className="flex flex-row w-[350px] justify-center items-center  mx-auto my-4 gap-4"
         >
-          {/* <Input
-            placeholder="leomirandadev@gmail.com"
-            className="bg-muted/50 dark:bg-muted/80 "
-            aria-label="email"
-          /> */}
-          <Button>Subscribe</Button>
+          <Input value="abhishekv4004@gmail.com" className=" " />
+          <Button variant="outline" size="icon">
+            <Copy className=" w-4 h-4" />
+          </Button>
         </form>
+
+        <div className="flex flex-row w-[350px] justify-center items-center  mx-auto gap-4 ">
+          <a
+            rel="noreferrer noopener"
+            href="https://github.com/AbhiSmith"
+            target="_blank"
+            className="border-2 rounded-full p-2"
+          >
+            <Github className=" w-8 h-8" />
+          </a>
+          <a
+            rel="noreferrer noopener"
+            href="https://github.com/AbhiSmith"
+            target="_blank"
+            className="border-2 rounded-full p-2"
+          >
+            <Linkedin className=" w-8 h-8" />
+          </a>
+          <a
+            rel="noreferrer noopener"
+            href="https://github.com/AbhiSmith"
+            target="_blank"
+            className="border-2 rounded-full p-2"
+          >
+            <Twitter className=" w-8 h-8" />
+          </a>
+          <a
+            rel="noreferrer noopener"
+            href="https://github.com/AbhiSmith"
+            target="_blank"
+            className="border-2 rounded-full p-2"
+          >
+            <Globe className=" w-8 h-8" />
+          </a>
+        </div>
       </div>
 
       <hr className="w-11/12 mx-auto" />

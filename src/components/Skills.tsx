@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Check } from "lucide-react";
+// import { SiJavascript } from "react-icons/si";
 
 enum PopularPlanType {
   NO = 0,
@@ -25,34 +26,35 @@ const skillslist: PricingProps[] = [
   {
     title: "Programming Languages",
 
-    benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
-    ],
+    benefitList: ["JavaScript", "TypeScript", "Python", "Java"],
   },
   {
     title: "Technologies",
 
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "React",
+      "Next.js",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "Django",
     ],
   },
   {
-    title: "Interests",
+    title: "Database:",
+
+    benefitList: ["PostgreSql", "Mongodb"],
+  },
+  {
+    title: "Tools:",
 
     benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "Chrome DevTools",
+      "GitHub",
+      "GitHub Action",
+      "AWS",
+      "Docker",
+      "Redis",
     ],
   },
 ];
@@ -69,7 +71,7 @@ export const Skills = () => {
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
         Technologies and tools that I use to create such awesome websites.
       </h3>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skillslist.map((pricing: PricingProps) => (
           <Card key={pricing.title}>
             <CardHeader>

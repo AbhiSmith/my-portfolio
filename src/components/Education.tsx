@@ -1,5 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
+import Image from "next/image";
 // import cubeLeg from "../assets/cube-leg.png";
 
 interface ServiceProps {
@@ -10,15 +11,15 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Master of Science in Computer Engineering (2021 – 2023)",
+    title: "Master of Computer Applications  (2021 – 2023)",
     description:
-      "Graduated from the University of Florida in December 2015 through UF’s Combined BS/MS program.",
+      "Graduated from the University Dr. A. P. J. Abdul Kalam Technical University, Lucknow in December 2023 .",
     icon: <ChartIcon />,
   },
   {
-    title: "Bachelor of Science in Computer Engineering (20117 – 2020)",
+    title: "Bachelor of Computer Applications (BCA)  (20117 – 2020)",
     description:
-      "Graduated Cum Laude from the University of Florida in December 2014.",
+      "Graduated Cum Laude from the University of Allahabad, Prayagraj 2020.",
     icon: <WalletIcon />,
   },
 ];
@@ -58,11 +59,13 @@ export const Education = () => {
           </div>
         </div>
 
-        {/* <img
-          src={cubeLeg}
+        <Image
+          src="/assets/growth.png"
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
-          alt="About services"
-        /> */}
+          alt="Education"
+          width={280}
+          height={350}
+        />
       </div>
     </section>
   );
