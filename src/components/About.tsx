@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+import { TechStack } from "./TechStack";
 
 export const About = () => {
   return (
@@ -35,7 +35,7 @@ export const About = () => {
               </p>
             </div>
 
-            <Statistics />
+            <TechStack />
           </div>
         </div>
       </div>

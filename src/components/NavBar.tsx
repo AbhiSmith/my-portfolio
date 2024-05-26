@@ -35,16 +35,16 @@ const routeList: RouteProps[] = [
     label: "Skills",
   },
   {
-    href: "https://drive.google.com/file/d/1JCy2Xx3W_mAiBbfg9MGN2NJRFvQWtc-K/view?usp=sharing",
-    label: "resume",
+    href: "#education",
+    label: "Education",
   },
   {
     href: "#connect",
     label: "connect",
   },
   {
-    href: "#education",
-    label: "Education",
+    href: "https://drive.google.com/file/d/1JCy2Xx3W_mAiBbfg9MGN2NJRFvQWtc-K/view?usp=sharing",
+    label: "resume",
   },
 ];
 

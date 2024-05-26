@@ -17,7 +17,7 @@ const serviceList: ServiceProps[] = [
     icon: <ChartIcon />,
   },
   {
-    title: "Bachelor of Computer Applications (BCA)  (20117 – 2020)",
+    title: "Bachelor of Computer Applications (BCA)  (2017 – 2020)",
     description:
       "Graduated Cum Laude from the University of Allahabad, Prayagraj 2020.",
     icon: <WalletIcon />,

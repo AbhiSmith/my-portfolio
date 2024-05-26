@@ -152,14 +152,14 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 page own by{" "}
+          Copyright &copy; 2024{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://abhishekinfo.online"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            abhishek
+            Abhishek Singh
           </a>
         </h3>
       </section>

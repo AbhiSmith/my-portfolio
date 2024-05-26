@@ -3,11 +3,13 @@ import { Button } from "./ui/button";
 import { Copy, Github, Globe, Linkedin, Twitter } from "lucide-react";
 
 import { Input } from "./ui/input";
+import { Label } from "@radix-ui/react-dropdown-menu";
 
 export const Connect = () => {
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    console.log("Subscribed!");
+  const handleCopy = () => {
+    const text = "abhishekv4004@gmail.com";
+    navigator.clipboard.writeText(text);
+    // setCopied(true);
   };
 
   return (
@@ -15,21 +17,23 @@ export const Connect = () => {
       <hr className="w-11/12 mx-auto" />
 
       <div className="container py-24 sm:py-32">
-        <h3 className="text-center text-4xl md:text-5xl font-bold">
-          Let&apos;s{" "}
+        <h3 className="text-center text-4xl md:text-5xl font-bold  ">
+          Ready to take{" "}
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-            connect
+            your{" "}
           </span>
+          digital presence to the next level?
         </h3>
-        <form
-          onSubmit={handleSubmit}
-          className="flex flex-row w-[350px] justify-center items-center  mx-auto my-4 gap-4"
-        >
-          <Input value="abhishekv4004@gmail.com" className=" " />
-          <Button variant="outline" size="icon">
+        <p className=" md:mt-10 my-5 text-center">
+          Reach out to me today and let&apos;s discuss how I can help you
+          achieve your goals.
+        </p>
+        <div className="flex flex-row w-[250px] justify-center items-center  mx-auto my-4 gap-4 border-2 py-1 rounded-lg ">
+          <Label className=" ">Copy my email address</Label>
+          <Button size="icon" onClick={handleCopy}>
             <Copy className=" w-4 h-4" />
           </Button>
-        </form>
+        </div>
 
         <div className="flex flex-row w-[350px] justify-center items-center  mx-auto gap-4 ">
           <a
