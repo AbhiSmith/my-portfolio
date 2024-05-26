@@ -44,7 +44,7 @@ const routeList: RouteProps[] = [
   },
   {
     href: "https://drive.google.com/file/d/1JCy2Xx3W_mAiBbfg9MGN2NJRFvQWtc-K/view?usp=sharing",
-    label: "resume",
+    label: "resume 🔗",
   },
 ];
 

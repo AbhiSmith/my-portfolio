@@ -45,7 +45,11 @@ export const HeroCards = () => {
         <CardContent className="text-base">
           <button className="flex flex-row gap-2" onClick={handleCopy}>
             Copy my email address
-            {copied ? " copied..." : <Copy className=" w-4 h-4 " />}
+            {copied ? (
+              <Check className=" w-4 h-4 " />
+            ) : (
+              <Copy className=" w-4 h-4 " />
+            )}
           </button>
         </CardContent>
       </Card>
@@ -54,7 +58,7 @@ export const HeroCards = () => {
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="https://i.pravatar.cc/150?img=58"
+            src="https://avatars.githubusercontent.com/u/154363991?v=4"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
@@ -75,7 +79,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/abhiSmith"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -87,7 +91,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="https://x.com/AbhishekS1ngh_"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -108,7 +112,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/abhishek-singh-4b45672bb"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

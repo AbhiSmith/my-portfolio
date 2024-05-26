@@ -46,7 +46,7 @@ export const Connect = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://github.com/AbhiSmith"
+            href="https://www.linkedin.com/in/abhishek-singh-4b45672bb"
             target="_blank"
             className="border-2 rounded-full p-2"
           >
@@ -54,7 +54,7 @@ export const Connect = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://github.com/AbhiSmith"
+            href="https://x.com/AbhishekS1ngh_"
             target="_blank"
             className="border-2 rounded-full p-2"
           >
@@ -62,7 +62,7 @@ export const Connect = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://github.com/AbhiSmith"
+            href="https://www.abhishekinfo.online"
             target="_blank"
             className="border-2 rounded-full p-2"
           >
