@@ -110,7 +110,7 @@ export const Projects = () => {
 
                 <div className="flex justify-center items-center">
                   <Link
-                    href="#"
+                    href={items.link}
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
                     {/* Check Live Site */}
@@ -129,23 +129,37 @@ export const Projects = () => {
 const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/icon/p1.svg",
+    title: "Transform your images with ease: resize, crop, adjust colors",
+    des: "Transform your images with ease: resize, crop, adjust colors, and apply premium presets for stunning visuals.",
+    img: "/icon/iedito.png",
     iconLists: [
-      "/icon/re.svg",
+      "/icon/next.svg",
       "/icon/tail.svg",
       "/icon/ts.svg",
       "/icon/three.svg",
       "/icon/fm.svg",
     ],
-    link: "/ui.earth.com",
+    link: "https://www.iedito.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/icon/p2.svg",
+    title: "Create a Dynamic Event Booking Web App with Next.js 14",
+    des: "Develop an Event Management Web App like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and secure payments. ",
+    img: "/icon/evently.png",
+    iconLists: [
+      "/icon/next.svg",
+      "/icon/tail.svg",
+      "/icon/ts.svg",
+      "/icon/three.svg",
+      "/icon/fm.svg",
+    ],
+    link: "https://event-booking-platform.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Url Shortner",
+    des: "Create custom URL shortening services with Next.js powered frontend, Drizzle ORM for seamless database interactions, and Neon DB for efficient data management.",
+    img: "/icon/tiney.png",
     iconLists: [
       "/icon/next.svg",
       "/icon/tail.svg",
@@ -153,13 +167,13 @@ const projects = [
       "/icon/stream.svg",
       "/icon/c.svg",
     ],
-    link: "/ui.yoom.com",
+    link: "https://tiny-url-liard.vercel.app/",
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
+    id: 4,
+    title: "AI Image SaaS Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/icon/p3.svg",
+    img: "/icon/ai-saas.png",
     iconLists: [
       "/icon/re.svg",
       "/icon/tail.svg",
@@ -167,10 +181,10 @@ const projects = [
       "/icon/three.svg",
       "/icon/c.svg",
     ],
-    link: "/ui.aiimg.com",
+    link: "https://ai-image-editor-six.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/icon/p4.svg",
@@ -181,6 +195,6 @@ const projects = [
       "/icon/three.svg",
       "/icon/gsap.svg",
     ],
-    link: "/ui.apple.com",
+    link: "https://github.com/AbhiSmith/project-iPhone-webApp",
   },
 ];
