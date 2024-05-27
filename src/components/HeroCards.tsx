@@ -112,7 +112,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/abhishek-singh-4b45672bb"
+              href="https://www.linkedin.com/in/abhisheksmith"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

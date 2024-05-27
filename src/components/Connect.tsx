@@ -46,7 +46,7 @@ export const Connect = () => {
           </a>
           <a
             rel="noreferrer noopener"
-            href="https://www.linkedin.com/in/abhishek-singh-4b45672bb"
+            href="https://www.linkedin.com/in/abhisheksmith"
             target="_blank"
             className="border-2 rounded-full p-2"
           >
