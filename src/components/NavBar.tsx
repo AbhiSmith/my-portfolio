@@ -43,7 +43,7 @@ const routeList: RouteProps[] = [
     label: "connect",
   },
   {
-    href: "https://drive.google.com/file/d/1Mf7JmbXvxt0M_pAveObWLN56q3z_AZl_/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1n3FzjODtZ8Y3lxb5ww2ZsoAIlMmuVoZQ/view?usp=sharing",
     label: "resume 🔗",
   },
 ];
